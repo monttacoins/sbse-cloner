@@ -3,6 +3,10 @@
   "name": "tanstack-start-app",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
-  // 👇 Caminho exato gerado pelo build do seu Vite
-  "main": "dist/server/server.js" 
+  "main": "dist/server/server.js",
+  // 👇 Adicione esta linha apontando para a pasta de arquivos do cliente
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  }
 }
