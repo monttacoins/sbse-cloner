@@ -3,6 +3,6 @@
   "name": "tanstack-start-app",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
-  // 👇 Aponta para o arquivo que o Vite realmente gera no build de produção
-  "main": ".output/server/index.mjs" 
+  // 👇 Caminho exato gerado pelo build do seu Vite
+  "main": "dist/server/server.js" 
 }
